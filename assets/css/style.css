@@ -1,0 +1,15 @@
+.text-field{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.border-field{
+    border-radius: 5px;
+    border: 2px grey solid;
+    padding: 10px;
+   
+}
+
+.border-field:hover{
+    border: 2px blue solid;
+}

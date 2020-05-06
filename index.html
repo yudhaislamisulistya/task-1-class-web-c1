@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TUGAS HTML & CSS : PERTEMUAN PERTAMA</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<style>
+    .center-mode {
+        margin: auto;
+    }
+
+    .button-submit {
+        padding: 10px;
+        background-color: cornflowerblue;
+        color: white;
+        border: 0px transparent solid;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .button-submit:hover {
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <form action="">
+        <table class="center-mode" cellspacing="20px">
+            <caption>
+                <img src="assets/images/umi.png" alt="" width="100px" height="100px">
+                <h4>Form Pendataan Mahasiswa Fakultas Ilmu Komputer Universitas Muslim Indonesia</h4>
+            </caption>
+            <tbody>
+                <tr>
+                    <td class="text-field">
+                        Nama
+                    </td>
+                    <td>
+                        <input class="border-field" type="text" placeholder="Masukkan Nama Anda " value="" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-field">
+                        Stambuk
+                    </td>
+                    <td>
+                        <input class="border-field" type="text" placeholder="Masukkan Stambuk" value="" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-field">
+                        Program Studi
+                    </td>
+                    <td>
+                        <select class="border-field" style="width: 195px">
+                            <option>Pilih Program Studi</option>
+                            <option>Teknik Informatika</option>
+                            <option>Sistem Informasi</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-field">
+                        Alamat
+                    </td>
+                    <td>
+                        <textarea name="" id="" cols="22" rows="10" class="border-field" required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-field">
+
+                    </td>
+                    <td style="text-align: right;">
+                        <button type="submit" class="button-submit">Tombol Submit</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
